@@ -148,21 +148,18 @@ const products = [{
     price: 78,
 },
 ];
-
+//4.1 задание
+///////////////////////////////////////////////////////////////////////////////
 searchPhoto = (products) => {
     let array = [];
-    
     products.filter(function(item, i){
-    
         if (products[i].photos != false && products[i].photos !=undefined) 
                 console.log(products[i]);
-      
     })
-
 }
-
 searchPhoto(products);
-
+//4.2 задание
+//////////////////////////////////////////////////////////////////////////////
 sortArray = (products) => {
   res =  products.sort(function(a, b) {
        return (a.price - b.price);    
