@@ -14,7 +14,8 @@
 ```
 <p class="dropdown">Привет :)</p>
 <div class="dropdown">
-<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Dropdown button
 </button>
 <div class="menu dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -28,9 +29,11 @@ Dropdown button
     "use strict";
 []()
 []()
-1. Ко всем элементам, имеющим класс "dropdown-item" добавить еще один класс "super-dropdown", необходимо использовать методы forEach и querySelectorAll и свойство classList у элементов.
+1. Ко всем элементам, имеющим класс "dropdown-item" добавить еще один класс "super-dropdown", необходимо 
+использовать методы forEach и querySelectorAll и свойство classList у элементов.
 []()
-2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
+2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если 
+такого класса у элемента не было.
 []()
 3. Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
 []()
