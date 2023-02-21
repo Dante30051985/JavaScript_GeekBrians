@@ -1,41 +1,4 @@
 Урок 9. Работа с событиями
-Обязательное задание.
-Выполнить все задачи в теге script. Комментарии, в которых написаны задачи, не стирать, код с решением задачи пишем под комментарием.
-
-<input id="from" type="text">
-В инпуте написано: <span></span>
-
-<br>
-
-<button class="messageBtn">Показать блок</button>
-<div class="message">
-  Привет :)
-</div>
-
-<br>
-
-<form>
-  <label>
-    Первый инпут:
-    <input class="form-control" type="text">
-  </label>
-  <br>
-  <br>
-  <label>
-    Второй инпут:
-    <select class="form-control">
-      <option value=""></option>
-      <option value="1">Один</option>
-      <option value="2">Два</option>
-    </select>
-  </label>
-  <br>
-  <br>
-  <button>Отправить</button>
-</form>
-
-<script>
-  "use strict";
 
 
 1. При изменении значения в input с id="from", значение содержащееся в нем должно моментально отображаться в span. То есть при печати в input'е тег span также должен меняться.
