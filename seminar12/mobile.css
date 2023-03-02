@@ -1,0 +1,23 @@
+#play, #pause, #stop, #backward, #forward{
+    width: 30px;
+}
+
+.contButtonVideo .buttonVideo{
+    gap: 4px;
+}
+
+input[type=range] {
+    width: 40px;
+}
+
+.timeVideo {
+    font-size: 15px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+video{
+    height: 484px;
+    background: #000;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 767px)" href="mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="contVideo" >
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" poster="https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&url=http%3A%2F%2Fi.mycdn.me%2Fimage%3Fid%3D872693384705%26t%3D50%26plc%3DWEB%26tkn%3D*-ddAeIqdljXzMx1AQn6It1mr9Ns&signatureToken=bfpYnHbNRMSomLlo7j2Vpw">
+    </video>
+    <progress min="0" max="100" value="0">0% просмотрено</progress>
+
+    <div class="contButtonVideo">
+    <div class="buttonVideo">
+    <img id="play" src="./img/play.png" width="64">
+    <img id="pause" src="./img/pause.png" width="64">
+    <img id="stop" src="./img/stop.png" width="64">
+    <img id="backward" src="./img/backward.png" width="64">
+    <img id="forward" src="./img/forward.png" width="64">
+  
+    <input type="range" orient="vertical" min="0" max="1" step="0.1" value="1">
+    </div>
+    <div class="timeVideo">
+        <span class="currentTime"></span>
+        <span class="durationVideo"></span>
+    </div>
+    </div>
+</div>
+</body>
+</html>
